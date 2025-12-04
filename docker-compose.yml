@@ -1,0 +1,8 @@
+services:
+  attack:
+    build: .
+    container_name: attack_container2
+    stdin_open: true
+    tty: true
+ 
+    command: tail -f /dev/null  # Keep the container running for interactive use

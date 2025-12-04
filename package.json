@@ -4,7 +4,7 @@
   "main": "urlattack.js",
   "type": "module",
   "scripts": {
-    "dev": "node "
+    "start": "node httpClient.js"
   },
   "keywords": [],
   "author": "",
